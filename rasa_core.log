@@ -1,0 +1,125 @@
+2019-07-03 16:50:58,292 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/'
+Traceback (most recent call last):
+  File "c:\users\tahmid.shibly\desktop\rasa\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\users\tahmid.shibly\desktop\rasa\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\tahmid.shibly\desktop\rasa\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL / not found
+2019-07-03 16:50:59,411 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/favicon.ico'
+Traceback (most recent call last):
+  File "c:\users\tahmid.shibly\desktop\rasa\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\users\tahmid.shibly\desktop\rasa\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\tahmid.shibly\desktop\rasa\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found
+2019-07-03 16:51:04,575 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/'
+Traceback (most recent call last):
+  File "c:\users\tahmid.shibly\desktop\rasa\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\users\tahmid.shibly\desktop\rasa\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\tahmid.shibly\desktop\rasa\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL / not found
+2019-07-03 16:51:38,405 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/'
+Traceback (most recent call last):
+  File "c:\users\tahmid.shibly\desktop\rasa\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\users\tahmid.shibly\desktop\rasa\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\tahmid.shibly\desktop\rasa\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL / not found
+2019-07-03 16:51:38,695 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/favicon.ico'
+Traceback (most recent call last):
+  File "c:\users\tahmid.shibly\desktop\rasa\lib\site-packages\sanic\app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "c:\users\tahmid.shibly\desktop\rasa\lib\site-packages\sanic\router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "c:\users\tahmid.shibly\desktop\rasa\lib\site-packages\sanic\router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found
+2019-07-09 13:15:00,207 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "c:\users\tahmid.shibly\appdata\local\programs\python\python36\Lib\asyncio\base_events.py", line 1051, in create_server
+    sock.bind(sa)
+OSError: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\tahmid.shibly\desktop\rasa\lib\site-packages\sanic\server.py", line 745, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "c:\users\tahmid.shibly\appdata\local\programs\python\python36\Lib\asyncio\base_events.py", line 473, in run_until_complete
+    return future.result()
+  File "c:\users\tahmid.shibly\appdata\local\programs\python\python36\Lib\asyncio\base_events.py", line 1055, in create_server
+    % (sa, err.strerror.lower()))
+OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 5005): only one usage of each socket address (protocol/network address/port) is normally permitted
+2019-07-09 13:15:55,140 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "c:\users\tahmid.shibly\appdata\local\programs\python\python36\Lib\asyncio\base_events.py", line 1051, in create_server
+    sock.bind(sa)
+OSError: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\tahmid.shibly\desktop\rasa\lib\site-packages\sanic\server.py", line 745, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "c:\users\tahmid.shibly\appdata\local\programs\python\python36\Lib\asyncio\base_events.py", line 473, in run_until_complete
+    return future.result()
+  File "c:\users\tahmid.shibly\appdata\local\programs\python\python36\Lib\asyncio\base_events.py", line 1055, in create_server
+    % (sa, err.strerror.lower()))
+OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 5005): only one usage of each socket address (protocol/network address/port) is normally permitted
+2019-07-09 13:16:45,912 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "c:\users\tahmid.shibly\appdata\local\programs\python\python36\Lib\asyncio\base_events.py", line 1051, in create_server
+    sock.bind(sa)
+OSError: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\tahmid.shibly\desktop\rasa\lib\site-packages\sanic\server.py", line 745, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "c:\users\tahmid.shibly\appdata\local\programs\python\python36\Lib\asyncio\base_events.py", line 473, in run_until_complete
+    return future.result()
+  File "c:\users\tahmid.shibly\appdata\local\programs\python\python36\Lib\asyncio\base_events.py", line 1055, in create_server
+    % (sa, err.strerror.lower()))
+OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 5005): only one usage of each socket address (protocol/network address/port) is normally permitted
+2019-07-09 13:19:08,705 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "c:\users\tahmid.shibly\appdata\local\programs\python\python36\Lib\asyncio\base_events.py", line 1051, in create_server
+    sock.bind(sa)
+OSError: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\tahmid.shibly\desktop\rasa\lib\site-packages\sanic\server.py", line 745, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "c:\users\tahmid.shibly\appdata\local\programs\python\python36\Lib\asyncio\base_events.py", line 473, in run_until_complete
+    return future.result()
+  File "c:\users\tahmid.shibly\appdata\local\programs\python\python36\Lib\asyncio\base_events.py", line 1055, in create_server
+    % (sa, err.strerror.lower()))
+OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 5005): only one usage of each socket address (protocol/network address/port) is normally permitted
+2019-07-10 10:24:40,354 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "c:\users\tahmid.shibly\appdata\local\programs\python\python36\Lib\asyncio\base_events.py", line 1051, in create_server
+    sock.bind(sa)
+OSError: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\tahmid.shibly\desktop\rasa\lib\site-packages\sanic\server.py", line 745, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "c:\users\tahmid.shibly\appdata\local\programs\python\python36\Lib\asyncio\base_events.py", line 473, in run_until_complete
+    return future.result()
+  File "c:\users\tahmid.shibly\appdata\local\programs\python\python36\Lib\asyncio\base_events.py", line 1055, in create_server
+    % (sa, err.strerror.lower()))
+OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 5005): only one usage of each socket address (protocol/network address/port) is normally permitted
